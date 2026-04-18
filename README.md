@@ -32,5 +32,12 @@ GUI <== WiFi ==> MC;
 
 ## Component Selection (Draft!)
 
+### Power Supply
+There are some different approaches to this. If we were using a seperate battery for this, then we could have just used a linear regulator, but if we want to use the motor battery, this voltage may range from 12 to 60 V. So we probably need to use a buck converter. We could also use a hybrid design (i.e. 12-60V input down to 4.5V with a buck converter and 4.5V to 3.3V with an LDO). This may complicate things a little, but it's a very good choice in terms of noise and is also fairly efficient.
+
+1. [Diodes Incorporated AP66200](https://www.diodes.com/assets/Datasheets/AP66200.pdf) Buck controller.
+2. [TI LMR51625](https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1742888310253&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D3%2526searchTerm%253DLMR51625XDDCR) Buck Controller (preferred).
+  a. Also, if using TI ICs for power conversion, check out [Webench Designer](https://webench.ti.com/power-designer/)
+
 1. [Toshiba CUS10S30 Schottkey Diodes](https://toshiba.semicon-storage.com/info/CUS10S30_datasheet_en_20140407.pdf?did=14077&prodName=CUS10S30) for signal over-voltage protection.\
   a. [Rohm RB520CM-60 Schottkey Diode](https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb520cm-60t2r-e.pdf) Alternative to (1) with higher reverse voltage
