@@ -8,16 +8,19 @@ The V2 board also integrates all sensors and ICs in a single solution.
 ## System Diagram
 ```mermaid
 graph LR;
-LC[<b>Load Cell</b></br>Uses a Wheatstone Bridge to provide a differential voltage signal.];
-CS[<b>Current Sensor</b></br>Current sensing is implemented with a shunt resistor and differential amp.];
-VS[<b>Voltage Sensor</b></br>Voltage sensing circuit is implemented with a digi-pot and supports auto-trimming.];
+LC[<b>Load Cell</b></br>Uses a Wheatstone Bridge to provide a differential voltage signal to the ADC.];
+CS[<b>Current Sensor</b></br>Current sensing is implemented with a shunt resistor with differential input feeding into the ADC.];
+VS[<b>Voltage Sensor</b></br>Voltage sensing circuit is implemented as a simple resistor voltage divider.];
+ADC["<b>Analog-to-Digital Converter (ADC)</b></br>Converts single mode and differential analog signals into a digital format."];
 MC[<b>ESP32 S3 WROOM 1</b></br>Controls esc for the motor, collects measurements, and communcates them over WiFi.];
 
 GUI[<b>Front End UI</b></br>A front end GUI collects measurements and makes user interaction simple.];
 
-LC --> MC;
-CS --> MC;
-VS --> MC;
+LC --> ADC;
+CS --> ADC;
+VS --> ADC;
+
+ADC --> MC;
 
 GUI <== WiFi ==> MC;
 ```
@@ -40,8 +43,9 @@ There are some different approaches to this. If we were using a seperate battery
   a. Also, if using TI ICs for power conversion, check out [Webench Designer](https://webench.ti.com/power-designer/)
 
 **All regulated power rails must have a zener diode of appropriate voltage to pull lines down if they have too high of a voltage.**
-We should run some simulations on mechanisms that monitor regulated power lines and short them to ground in case the battery voltage somehow gets
-connected to them directly.
+We should run some simulations to ensure the zener diode is enough for protecting regulated lines if battery is shorted to them or if
+we need to have something else. We may also want to consider adding a fuse to the power rail since the zener diode will short to ground
+and pull a lot of current.
 
 ## Voltage Protection on Signal Pins
 For signal pins, zener diodes may work, but there are options for more precise control like Schottkey diodes. These can also provide reverse polarity protection if configured correctly, so this is the solution we will use. Here are some options for diodes that may work. The Rohm diode has a lower forward drop, which is good for protecting against over-voltage, but it has a low reverse voltage rating which is worse for reverse-polarity protection. The opposite is true for the Toshiba diode. We may need to look for other diodes that have the adequate reverse voltage rating(60V) and a low drop(ideally $\leq$ 300mV).
