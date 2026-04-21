@@ -2118,6 +2118,12 @@
 		(uuid "1bb7ec68-5b5c-474b-a7d3-e6171e9199ee")
 	)
 	(junction
+		(at 237.49 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a43347-4a2f-40fe-8cea-e0263e28cea5")
+	)
+	(junction
 		(at 171.45 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2453,6 +2459,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 29.21) (xy 237.49 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f665798-798f-4044-bb69-bcb158dded26")
+	)
+	(wire
+		(pts
 			(xy 102.87 27.94) (xy 104.14 27.94)
 		)
 		(stroke
@@ -2713,6 +2729,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 29.21) (xy 226.06 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff47de4-8469-4cb9-b3f3-994311f1c89c")
+	)
+	(wire
+		(pts
 			(xy 171.45 39.37) (xy 171.45 44.45)
 		)
 		(stroke
@@ -2750,6 +2776,16 @@
 			(type default)
 		)
 		(uuid "b75dbfe4-79f7-4bb2-9dca-a5fa87f0793a")
+	)
+	(wire
+		(pts
+			(xy 233.68 29.21) (xy 237.49 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd27149d-d819-44d1-9790-b42883dbf2e5")
 	)
 	(wire
 		(pts
@@ -2903,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 39.37) (xy 237.49 20.32)
+			(xy 237.49 39.37) (xy 237.49 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4130,6 +4166,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 229.87 29.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ca53e0-e89a-4e11-b4bd-3a8b701ccf34")
+		(property "Reference" "Zener2"
+			(at 229.87 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 229.87 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 229.87 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b324de5a-2c28-4610-b371-9d978cd9dcfb")
+		)
+		(pin "2"
+			(uuid "cd718f1b-30fc-48c7-bcc3-b22a4338c4e6")
+		)
+		(instances
+			(project "suasPcbDesign"
+				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
+					(reference "Zener2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 53.34 0)
 		(unit 1)
@@ -4219,7 +4335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "795d3803-61dc-4b44-8085-e43b2956f9f8")
-		(property "Reference" "4.5V"
+		(property "Reference" "Zener1"
 			(at 148.59 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4230,7 +4346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Zener1"
+		(property "Value" "4.5V"
 			(at 148.59 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +4399,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "4.5V")
+					(reference "Zener1")
 					(unit 1)
 				)
 			)
@@ -5075,6 +5191,85 @@
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
 					(reference "X7R")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f91a9afa-2e88-4c72-96d4-ae555c49df99")
+		(property "Reference" "#PWR08"
+			(at 217.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cd4dd43-3e49-43c3-b3da-d348548d782e")
+		)
+		(instances
+			(project "suasPcbDesign"
+				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
