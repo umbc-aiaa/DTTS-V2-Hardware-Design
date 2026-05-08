@@ -4780,6 +4780,12 @@
 		(uuid "49ec48bb-c8f5-4844-bc6e-ef08c6f44a6e")
 	)
 	(junction
+		(at 152.4 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58b27600-6779-4fbf-a622-1fcdfb5f472f")
+	)
+	(junction
 		(at 95.25 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4838,12 +4844,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78c56bbb-40ed-4284-9b02-810f832b2ebc")
-	)
-	(junction
-		(at 374.65 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d95c21d-f7e1-4bf1-b090-e881912f59a2")
 	)
 	(junction
 		(at 86.36 128.27)
@@ -4930,6 +4930,12 @@
 		(uuid "c302a7a6-9251-4791-a931-231cd4b03ff5")
 	)
 	(junction
+		(at 374.65 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6eff306-6825-4f89-ae78-d7ea88771ef6")
+	)
+	(junction
 		(at 160.02 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4965,12 +4971,6 @@
 		(color 0 0 0 0)
 		(uuid "faa11969-cf5c-4e1b-be80-a499535d5694")
 	)
-	(junction
-		(at 365.76 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbd3ae68-8f02-4c75-ad87-e6911d8c92ac")
-	)
 	(wire
 		(pts
 			(xy 144.78 163.83) (xy 144.78 127)
@@ -4980,6 +4980,16 @@
 			(type default)
 		)
 		(uuid "01d03e4d-9c76-4e0a-aaf1-d0e1c5b36626")
+	)
+	(wire
+		(pts
+			(xy 374.65 17.78) (xy 152.4 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b92f4a-f6d2-4605-93cd-553cb73ae022")
 	)
 	(wire
 		(pts
@@ -5140,6 +5150,16 @@
 			(type default)
 		)
 		(uuid "1684aec0-d547-44d3-99da-baea7cee2b0f")
+	)
+	(wire
+		(pts
+			(xy 152.4 17.78) (xy 152.4 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d03e78-0747-4d39-98ae-72a65a99a32b")
 	)
 	(wire
 		(pts
@@ -5753,16 +5773,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 21.59) (xy 374.65 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "482cac8f-a95b-4d66-bb5f-3116ad5e6fb7")
-	)
-	(wire
-		(pts
 			(xy 219.71 132.08) (xy 223.52 132.08)
 		)
 		(stroke
@@ -6033,7 +6043,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 21.59) (xy 365.76 26.67)
+			(xy 365.76 19.05) (xy 365.76 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6273,16 +6283,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 19.05) (xy 365.76 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c6db822-7534-46bd-9dc8-baca6d80097a")
-	)
-	(wire
-		(pts
 			(xy 50.8 39.37) (xy 63.5 39.37)
 		)
 		(stroke
@@ -6423,7 +6423,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 39.37) (xy 160.02 39.37)
+			(xy 146.05 39.37) (xy 152.4 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6650,16 +6650,6 @@
 			(type default)
 		)
 		(uuid "9f096254-688d-4b4e-a8f1-1182221680ac")
-	)
-	(wire
-		(pts
-			(xy 374.65 21.59) (xy 374.65 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d5b0f9-e6d8-4739-bdad-eb004c9d231a")
 	)
 	(wire
 		(pts
@@ -7333,6 +7323,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 39.37) (xy 160.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc740f8-ae58-419e-9826-03b2a5defd84")
+	)
+	(wire
+		(pts
 			(xy 217.17 88.9) (xy 222.25 88.9)
 		)
 		(stroke
@@ -7380,6 +7380,16 @@
 			(type default)
 		)
 		(uuid "de5367d3-a6cf-4e2a-a966-5fb4cd358bdd")
+	)
+	(wire
+		(pts
+			(xy 374.65 58.42) (xy 374.65 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a2e8e6-483e-4d78-9b98-600aa010cb5d")
 	)
 	(wire
 		(pts
@@ -11837,7 +11847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DDC0006A-MFG"
 			(at 77.47 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11848,7 +11858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1778147549252&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
 			(at 77.47 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13300,7 +13310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TLV"
 			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13311,7 +13321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv777.pdf?ts=1778143120833&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV777%253FHQS%253Dds-null-null-companionv1_all-inln-pf-rubin_high-en_us_cons"
 			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
