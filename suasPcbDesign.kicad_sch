@@ -7965,7 +7965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 116.332 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -8047,7 +8047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 116.332 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -8286,7 +8286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 347.98 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8402,7 +8402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 110.49 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8717,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 335.28 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -8799,7 +8799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 130.5052 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8878,7 +8878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 161.29 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -8960,7 +8960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.162 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -9039,7 +9039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 209.55 89.8652 0)
 			(hide yes)
 			(show_name no)
@@ -9199,7 +9199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 67.0052 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9281,7 +9281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 97.4852 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9363,7 +9363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 121.6152 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9521,7 +9521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 209.55 96.2152 0)
 			(hide yes)
 			(show_name no)
@@ -9679,7 +9679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -9761,7 +9761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 87.3252 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9918,7 +9918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -10234,7 +10234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 87.3252 127 0)
 			(hide yes)
 			(show_name no)
@@ -10313,7 +10313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 290.068 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -10393,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 110.49 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -10473,7 +10473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 82.55 93.218 90)
 			(hide yes)
 			(show_name no)
@@ -10691,7 +10691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 210.5152 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10770,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 290.068 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -10850,7 +10850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 212.09 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11088,7 +11088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 114.6048 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11170,7 +11170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 146.05 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11240,7 +11240,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 99.06 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11250,7 +11250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 102.87 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -11330,7 +11330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 140.208 90)
 			(hide yes)
 			(show_name no)
@@ -11409,7 +11409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -11767,7 +11767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 121.158 90)
 			(hide yes)
 			(show_name no)
@@ -11940,7 +11940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 44.1452 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12020,7 +12020,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 17.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12105,7 +12105,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -12265,7 +12265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 27.94 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12459,7 +12459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 163.83 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -12541,7 +12541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 28.702 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -12627,7 +12627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 110.49 165.608 90)
 			(hide yes)
 			(show_name no)
@@ -12709,7 +12709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 160.9852 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12869,7 +12869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 121.6152 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -12948,7 +12948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 161.29 87.9348 0)
 			(hide yes)
 			(show_name no)
@@ -13230,7 +13230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 123.698 90)
 			(hide yes)
 			(show_name no)
@@ -13401,7 +13401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 16.51 78.486 90)
 			(hide yes)
 			(show_name no)
@@ -13516,7 +13516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.162 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -13587,7 +13587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 81.28 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13598,7 +13598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 78.4352 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13677,7 +13677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 138.938 90)
 			(hide yes)
 			(show_name no)
@@ -13912,7 +13912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 302.26 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14114,7 +14114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 55.5752 74.93 0)
 			(hide yes)
 			(show_name no)
