@@ -13907,7 +13907,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode (XL-1608UOC-04)"
+		(property "Description" "Light emitting diode (XL-1608SURC-06)"
 			(at 354.33 34.29 0)
 			(hide yes)
 			(show_name no)
