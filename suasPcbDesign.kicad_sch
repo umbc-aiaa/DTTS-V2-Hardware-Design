@@ -8,8 +8,8 @@
 		(title "DTTS V2")
 		(date "2026-06-28")
 		(company "UMBC AIAA")
-		(comment 1 "Karam")
-		(comment 2 "Murali")
+		(comment 1 "Karam B.")
+		(comment 2 "Murali I.")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC138"
@@ -8769,6 +8769,12 @@
 		(uuid "41a07815-208f-4d04-9ca9-d0f3703dcbc0")
 	)
 	(junction
+		(at 309.88 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "457e6035-de2c-438e-9aee-443638f09c40")
+	)
+	(junction
 		(at 162.56 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8779,6 +8785,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49ec48bb-c8f5-4844-bc6e-ef08c6f44a6e")
+	)
+	(junction
+		(at 316.23 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dcc8e3d-0b5a-4f2c-a73d-eee1625bafff")
 	)
 	(junction
 		(at 190.5 190.5)
@@ -8955,6 +8967,12 @@
 		(uuid "cdff954e-18f9-4193-b0f0-b36d95314b98")
 	)
 	(junction
+		(at 276.86 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceaa2b4d-f8ad-4223-bbd9-a653673c67c4")
+	)
+	(junction
 		(at 39.37 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9092,6 +9110,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 198.12) (xy 309.88 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0077e409-e1a7-4285-9c70-4b31ca66f4a2")
+	)
+	(wire
+		(pts
 			(xy 396.24 53.34) (xy 396.24 54.61)
 		)
 		(stroke
@@ -9199,6 +9227,16 @@
 			(type default)
 		)
 		(uuid "09fff1ae-6e61-48f2-806a-57be3467a303")
+	)
+	(wire
+		(pts
+			(xy 316.23 200.66) (xy 322.58 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5f7537-ea6c-4032-89ca-0418d9798414")
 	)
 	(wire
 		(pts
@@ -9782,6 +9820,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 187.96) (xy 309.88 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319d639b-8f50-4912-9e5d-a3c34f653dbb")
+	)
+	(wire
+		(pts
 			(xy 54.61 151.13) (xy 59.69 151.13)
 		)
 		(stroke
@@ -10272,6 +10320,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 187.96) (xy 276.86 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51da0dd8-3001-4255-b087-f9deae0dcfc5")
+	)
+	(wire
+		(pts
 			(xy 245.11 227.33) (xy 261.62 227.33)
 		)
 		(stroke
@@ -10732,7 +10790,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 186.69) (xy 276.86 189.23)
+			(xy 276.86 186.69) (xy 276.86 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10809,6 +10867,16 @@
 			(type default)
 		)
 		(uuid "84a707a3-f229-496c-b86e-a16e03da186d")
+	)
+	(wire
+		(pts
+			(xy 309.88 187.96) (xy 322.58 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8504abc7-8ded-4cc3-80f5-6bf64aaf6a7a")
 	)
 	(wire
 		(pts
@@ -10922,6 +10990,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 187.96) (xy 322.58 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8fe01d-c0ab-4acc-ac8e-96e162a28354")
+	)
+	(wire
+		(pts
 			(xy 162.56 44.45) (xy 167.64 44.45)
 		)
 		(stroke
@@ -10929,6 +11007,16 @@
 			(type default)
 		)
 		(uuid "8e2e5bb7-96b4-47d1-9eff-26ceddf7e56d")
+	)
+	(wire
+		(pts
+			(xy 316.23 200.66) (xy 316.23 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0f2e5b-3ec4-4a60-afa8-0de39ccb0df1")
 	)
 	(wire
 		(pts
@@ -11602,6 +11690,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 200.66) (xy 316.23 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd91d1d7-1b9e-49c9-b201-4705a279400e")
+	)
+	(wire
+		(pts
 			(xy 147.32 53.34) (xy 147.32 55.88)
 		)
 		(stroke
@@ -11899,6 +11997,16 @@
 			(type default)
 		)
 		(uuid "d025f859-ed16-405a-bd44-dfac0cd95a3a")
+	)
+	(wire
+		(pts
+			(xy 309.88 187.96) (xy 309.88 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02679f8-be4d-467b-a5c6-6f1a9f0aabc6")
 	)
 	(wire
 		(pts
@@ -12329,6 +12437,16 @@
 			(type default)
 		)
 		(uuid "eb48b524-2d0e-421b-85cb-314e67c0466d")
+	)
+	(wire
+		(pts
+			(xy 322.58 200.66) (xy 322.58 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb69750-67e9-4e5b-b5ca-00829f934b5b")
 	)
 	(wire
 		(pts
@@ -20412,6 +20530,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 309.88 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c78b78-e446-4a3f-bb42-06e00b2a8b78")
+		(property "Reference" "C4"
+			(at 313.69 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 313.69 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 310.8452 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 309.88 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7cd63019-ff20-49f1-9a18-ddfefa3d94ae")
+		)
+		(pin "1"
+			(uuid "e0ca3783-19c9-4efd-a4b3-ff4a4e7d31a0")
+		)
+		(instances
+			(project "suasPcbDesign"
+				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 240.03 106.68 0)
 		(unit 1)
@@ -22999,6 +23199,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 316.23 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c04e329a-b88b-46c5-8005-f430990489a2")
+		(property "Reference" "#PWR044"
+			(at 316.23 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.23 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 316.23 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9557a4b1-a2ed-4dab-a23d-f4a4c8b94e05")
+		)
+		(instances
+			(project "suasPcbDesign"
+				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
 		(at 153.67 193.04 0)
 		(unit 1)
@@ -23515,6 +23793,88 @@
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 322.58 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccfe00c3-3352-46a4-86da-6171632e0ec0")
+		(property "Reference" "C3"
+			(at 326.39 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 326.39 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 323.5452 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 322.58 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "80d30f8d-b747-4cfd-aa73-4f2043668d88")
+		)
+		(pin "1"
+			(uuid "ee780c8f-8995-4667-b08c-f61ded34e008")
+		)
+		(instances
+			(project "suasPcbDesign"
+				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
+					(reference "C3")
 					(unit 1)
 				)
 			)

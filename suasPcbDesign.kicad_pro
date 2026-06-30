@@ -691,7 +691,7 @@
         "uuid": "3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
       }
     ],
-    "used_designators": "RV1,U6-10,SW1-7,CR1,#PWR8,#PWR13-14,#PWR25,#PWR29-49,C1-2,D2-9,R11,R21-30,JP1-5,Cout_Cap6,J3-8",
+    "used_designators": "MK1,RV1,U6-10,SW1-7,CR1,#PWR8,#PWR13-14,#PWR25,#PWR29-49,C1-4,D2-9,R11,R21-30,JP1-5,Cout_Cap6,J3-8",
     "variants": []
   },
   "sheets": [
