@@ -605,146 +605,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4604,7 +4464,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:ESD9B3.3ST5G"
+		(symbol "Diode:SMF5V0A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4627,7 +4487,7 @@
 					)
 				)
 			)
-			(property "Value" "ESD9B3.3ST5G"
+			(property "Value" "SMF5V0A"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4637,7 +4497,29 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-923"
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4648,7 +4530,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(property "ki_keywords" "diode TVS voltage suppressor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4659,7 +4541,7 @@
 					)
 				)
 			)
-			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(property "ki_fp_filters" "D*SMF*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4670,35 +4552,13 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?923*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESD9B3.3ST5G_0_1"
+			(symbol "SMF5V0A_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4707,34 +4567,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4742,185 +4578,7 @@
 					)
 				)
 			)
-			(symbol "ESD9B3.3ST5G_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:ESD9B5.0ST5G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD9B5.0ST5G"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-923"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?923*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESD9B5.0ST5G_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD9B5.0ST5G_1_1"
+			(symbol "SMF5V0A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -9085,12 +8743,6 @@
 		(uuid "9755fd8a-ea61-476b-b0d4-76de11c5f102")
 	)
 	(junction
-		(at 219.71 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d49efb1-06a1-44b9-bb2d-a41135be1394")
-	)
-	(junction
 		(at 116.84 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9175,12 +8827,6 @@
 		(uuid "e18d8fb8-d6de-423c-aca6-e2251133dd47")
 	)
 	(junction
-		(at 219.71 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e474ee0c-51d8-42ec-892a-faeb47282ea5")
-	)
-	(junction
 		(at 130.81 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9209,12 +8855,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faa11969-cf5c-4e1b-be80-a499535d5694")
-	)
-	(junction
-		(at 152.4 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff066e94-f1b5-4073-9e26-30d9ea91a16d")
 	)
 	(no_connect
 		(at 292.1 237.49)
@@ -9298,13 +8938,13 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 53.34) (xy 396.24 54.61)
+			(xy 208.28 160.02) (xy 209.55 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0228b8fa-4418-46ac-8c3b-51f3b511e7bf")
+		(uuid "019140ee-275a-4df3-b2f2-dcab85f88c57")
 	)
 	(wire
 		(pts
@@ -10198,6 +9838,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 113.03) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d225172-33bc-419b-8ad0-d11dc2b20a89")
+	)
+	(wire
+		(pts
 			(xy 187.96 160.02) (xy 194.31 160.02)
 		)
 		(stroke
@@ -10448,16 +10098,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 41.91) (xy 152.4 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cba4c44-fa64-42a1-a043-6f7e677b3739")
-	)
-	(wire
-		(pts
 			(xy 167.64 55.88) (xy 167.64 58.42)
 		)
 		(stroke
@@ -10585,16 +10225,6 @@
 			(type default)
 		)
 		(uuid "54d0b066-1549-4f31-9912-28f15f4156f5")
-	)
-	(wire
-		(pts
-			(xy 396.24 38.1) (xy 396.24 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557a1fb6-44e8-44fd-8ecb-2d8f3515309d")
 	)
 	(wire
 		(pts
@@ -10858,16 +10488,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 184.15) (xy 200.66 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3a246a-699e-41a6-a0de-4d59c8e2b052")
-	)
-	(wire
-		(pts
 			(xy 201.93 144.78) (xy 204.47 144.78)
 		)
 		(stroke
@@ -10928,16 +10548,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 44.45) (xy 219.71 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7351e82a-3121-48b9-a5e0-3bbc657b433e")
-	)
-	(wire
-		(pts
 			(xy 175.26 44.45) (xy 177.8 44.45)
 		)
 		(stroke
@@ -10955,6 +10565,16 @@
 			(type default)
 		)
 		(uuid "752ee64c-0f46-417c-9254-221f6da63d5a")
+	)
+	(wire
+		(pts
+			(xy 93.98 113.03) (xy 96.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a095f7-7a06-4f12-8998-cbf85c134ecc")
 	)
 	(wire
 		(pts
@@ -11045,6 +10665,16 @@
 			(type default)
 		)
 		(uuid "7cfd2447-e726-4bb2-87b4-15d3df4ec966")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.03) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b82d99-5c8e-489d-b3ac-099f63a43a77")
 	)
 	(wire
 		(pts
@@ -12198,7 +11828,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 31.75) (xy 219.71 41.91)
+			(xy 219.71 31.75) (xy 219.71 44.45)
 		)
 		(stroke
 			(width 0)
@@ -12398,7 +12028,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 44.45) (xy 152.4 44.45)
+			(xy 147.32 44.45) (xy 157.48 44.45)
 		)
 		(stroke
 			(width 0)
@@ -12638,16 +12268,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 44.45) (xy 219.71 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb48b524-2d0e-421b-85cb-314e67c0466d")
-	)
-	(wire
-		(pts
 			(xy 322.58 200.66) (xy 322.58 198.12)
 		)
 		(stroke
@@ -12718,6 +12338,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 113.03) (xy 93.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02b7c18-5764-4bee-a7c2-f3fd53dcc3e2")
+	)
+	(wire
+		(pts
 			(xy 201.93 160.02) (xy 203.2 160.02)
 		)
 		(stroke
@@ -12765,16 +12395,6 @@
 			(type default)
 		)
 		(uuid "f2573bf9-ec82-42d4-a687-4a33dc3092eb")
-	)
-	(wire
-		(pts
-			(xy 219.71 55.88) (xy 219.71 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2cf1f3a-327c-44b1-af6c-181814089548")
 	)
 	(wire
 		(pts
@@ -12845,16 +12465,6 @@
 			(type default)
 		)
 		(uuid "f6be357a-b0e5-475e-8401-0aab8267008d")
-	)
-	(wire
-		(pts
-			(xy 152.4 44.45) (xy 157.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7478c79-de9d-4bc4-ac6e-9c9128673cc4")
 	)
 	(wire
 		(pts
@@ -13878,7 +13488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00622b82-e348-4750-9421-6f536ebe4b44")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR017"
 			(at 166.37 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13938,7 +13548,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR039")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13956,7 +13566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06a96b2c-841d-4721-aa13-7f517db1a20c")
-		(property "Reference" "Rfbb_R4"
+		(property "Reference" "RFB2"
 			(at 121.92 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14020,7 +13630,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Rfbb_R4")
+					(reference "RFB2")
 					(unit 1)
 				)
 			)
@@ -14038,7 +13648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "071d9dbb-3d37-4a4a-8c18-c605d780ba64")
-		(property "Reference" "Rfbt_R3"
+		(property "Reference" "RFB1"
 			(at 121.92 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14102,7 +13712,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Rfbt_R3")
+					(reference "RFB1")
 					(unit 1)
 				)
 			)
@@ -14120,7 +13730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09268b7b-213f-4e1d-841b-adf55806d2ae")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 46.5933 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14226,7 +13836,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U8")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14243,7 +13853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d8e0374-7b78-46cf-91b1-773b1529dd14")
-		(property "Reference" "R20"
+		(property "Reference" "R23"
 			(at 317.5 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14305,7 +13915,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R20")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -14403,7 +14013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11433efd-5834-484c-ac9d-458c16534801")
-		(property "Reference" "R11"
+		(property "Reference" "R26"
 			(at 374.65 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14467,7 +14077,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R11")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -14485,7 +14095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16555dd1-e03f-4920-b6cd-ad2f9d7606d4")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 96.52 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -14545,7 +14155,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14562,7 +14172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1761380d-b591-4420-9558-7d5360c14c72")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR03"
 			(at 44.45 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14622,88 +14232,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 219.71 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "17c1b332-8b65-4591-b1b8-6c47386cdb66")
-		(property "Reference" "D3"
-			(at 222.25 50.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9B3.3ST5G"
-			(at 212.852 56.642 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 219.71 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 219.71 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 219.71 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f979a297-aec6-4f90-af2d-f4bde2579eaa")
-		)
-		(pin "2"
-			(uuid "590aefbc-27b5-491f-9612-42b7c172c353")
-		)
-		(instances
-			(project "suasPcbDesign"
-				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D3")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14721,7 +14250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19b25be0-fc6d-43f0-8594-0f531e15ea5a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR014"
 			(at 147.32 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14781,7 +14310,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR01")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14798,7 +14327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b7ea0be-be1a-4d5f-924e-53925d238408")
-		(property "Reference" "Cout_Cap6"
+		(property "Reference" "COC2"
 			(at 137.922 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14862,83 +14391,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cout_Cap6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 214.63 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d992eb5-c68f-4501-95f8-9af1185ce882")
-		(property "Reference" "J4"
-			(at 212.852 38.354 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3 Test Pad"
-			(at 212.852 40.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 214.63 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 214.63 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc50bd84-a9a9-432a-9c0f-04475bb1f651")
-		)
-		(instances
-			(project "suasPcbDesign"
-				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "J4")
+					(reference "COC2")
 					(unit 1)
 				)
 			)
@@ -14955,7 +14408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2048ee0d-a16a-42b6-994a-fe509cae71b5")
-		(property "Reference" "R28"
+		(property "Reference" "R21"
 			(at 262.89 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15019,7 +14472,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R28")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -15037,7 +14490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "227c922b-fa3d-4071-8253-44e235917a42")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 85.09 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -15098,7 +14551,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15116,7 +14569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22959147-6bd7-491b-babd-364f530d1e76")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR025"
 			(at 199.39 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15176,7 +14629,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR037")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15195,7 +14648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22b79d3e-b842-4bc8-bfee-9513516386f2")
-		(property "Reference" "SW2"
+		(property "Reference" "SW7"
 			(at 379.73 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15257,85 +14710,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26faad58-e324-483f-a9c0-2f2c4067c4b7")
-		(property "Reference" "#PWR030"
-			(at 219.71 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d6240f74-8341-43a2-9594-b0c642d124a7")
-		)
-		(instances
-			(project "suasPcbDesign"
-				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR030")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -15352,7 +14727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b8432d4-ee96-4795-a146-909c1f4f333a")
-		(property "Reference" "JP2"
+		(property "Reference" "JP5V1"
 			(at 162.052 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15414,7 +14789,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "JP2")
+					(reference "JP5V1")
 					(unit 1)
 				)
 			)
@@ -15432,7 +14807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c825605-def3-43f3-a1ff-bb9595608b92")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR031"
 			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -15492,7 +14867,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR046")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -15531,7 +14906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 275.59 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -15593,7 +14968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fbb6195-6e96-45dd-8c80-6d4f09996356")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 241.3 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15655,7 +15030,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -15673,7 +15048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fc4ef39-910a-4de2-b0bd-31e4a89ce6d0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR028"
 			(at 219.71 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15733,85 +15108,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 396.24 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30838c8e-ae4a-4abb-bac2-73c253e6ef52")
-		(property "Reference" "#PWR036"
-			(at 396.24 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 396.24 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 396.24 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 396.24 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3cc33d5-f6c5-497f-affc-e155229acadc")
-		)
-		(instances
-			(project "suasPcbDesign"
-				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR036")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15828,7 +15125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "311d6d98-292f-446a-991b-896602bddd4d")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 241.3 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15890,7 +15187,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -15907,7 +15204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31b344ab-4fa9-4b1b-8a00-a1b3d78aca47")
-		(property "Reference" "Cout_Cap5"
+		(property "Reference" "COC1"
 			(at 128.016 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15971,7 +15268,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cout_Cap5")
+					(reference "COC1")
 					(unit 1)
 				)
 			)
@@ -15988,7 +15285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "338bd25f-4a4c-4361-a538-9ab00c793c3a")
-		(property "Reference" "Cap10"
+		(property "Reference" "Cap3"
 			(at 123.698 121.666 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16050,7 +15347,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap10")
+					(reference "Cap3")
 					(unit 1)
 				)
 			)
@@ -16068,7 +15365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34815802-fe8e-4e36-b44e-bea61b85a977")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR04"
 			(at 44.45 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -16128,7 +15425,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR043")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -16145,7 +15442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35613136-825b-4c2b-b969-039eb0996dad")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 153.67 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16209,7 +15506,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -16227,7 +15524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3609c9cb-e4e0-475b-b787-6ae5f32782ed")
-		(property "Reference" "SW1"
+		(property "Reference" "SW6"
 			(at 373.38 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16291,15 +15588,15 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "SW1")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD9B5.0ST5G")
-		(at 147.32 49.53 270)
+		(lib_id "power:GND")
+		(at 109.22 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16307,31 +15604,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "38aceafa-5c43-4975-ad97-251a9d7694b4")
-		(property "Reference" "D4"
-			(at 149.86 48.2599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9B5.0ST5G"
-			(at 141.986 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 147.32 49.53 0)
+		(fields_autoplaced yes)
+		(uuid "36882a5d-bd68-434c-9684-ab5e11106a8b")
+		(property "Reference" "#PWR049"
+			(at 109.22 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16341,8 +15617,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 147.32 49.53 0)
+		(property "Value" "GND"
+			(at 109.22 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16352,8 +15638,19 @@
 				)
 			)
 		)
-		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
-			(at 147.32 49.53 0)
+		(property "Datasheet" ""
+			(at 109.22 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16364,15 +15661,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "967d6670-c3d3-4c7c-a481-92aad91ee466")
-		)
-		(pin "2"
-			(uuid "daf0d662-4cc3-49d7-9b99-137f1e0269ae")
+			(uuid "899422e1-13a2-4f47-8647-1950e6c3092f")
 		)
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D4")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -16390,7 +15684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b93ef94-02a0-425d-9907-cc62756f035c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR08"
 			(at 87.63 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -16450,7 +15744,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR022")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16468,7 +15762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd99635-51ef-42e5-a364-6e180a3f9e93")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR038"
 			(at 298.45 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -16528,7 +15822,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR026")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -16545,7 +15839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d50fbd8-a4e0-440b-8339-4781a5548472")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 266.192 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16618,7 +15912,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -16635,7 +15929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d91f9ef-5d15-4b40-8c24-13970b71136f")
-		(property "Reference" "Cap12"
+		(property "Reference" "Cap4"
 			(at 188.722 108.204 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16697,7 +15991,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap12")
+					(reference "Cap4")
 					(unit 1)
 				)
 			)
@@ -16715,7 +16009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ed9d1ed-9803-4d7b-9c2c-353e170f622f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR012"
 			(at 133.35 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -16776,7 +16070,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR018")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -16794,7 +16088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fac6f6b-8388-4312-aee6-94af81e4c8ce")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 43.18 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16804,7 +16098,7 @@
 				)
 			)
 		)
-		(property "Value" "SPI Interface"
+		(property "Value" "SPI CS"
 			(at 43.18 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16898,7 +16192,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -16915,7 +16209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fbb9e5f-e739-4543-93c7-247deef70aff")
-		(property "Reference" "X7R_Cap3"
+		(property "Reference" "BBCC3"
 			(at 51.816 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16979,7 +16273,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "X7R_Cap3")
+					(reference "BBCC3")
 					(unit 1)
 				)
 			)
@@ -16997,7 +16291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42064a22-79da-44a1-b0f5-7aacb950e51b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 170.18 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17057,7 +16351,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17074,7 +16368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4303fe9f-9080-4f71-afde-72b97b4ce122")
-		(property "Reference" "Cap_13"
+		(property "Reference" "Cap_5"
 			(at 166.116 197.358 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17138,7 +16432,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap_13")
+					(reference "Cap_5")
 					(unit 1)
 				)
 			)
@@ -17155,7 +16449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4362c770-4485-40ec-95ee-e0803a0fae03")
-		(property "Reference" "R25"
+		(property "Reference" "R15"
 			(at 205.74 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17217,7 +16511,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R25")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17235,7 +16529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43ef4977-a449-4560-a034-3719e8912088")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 264.16 62.1598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17306,7 +16600,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U9")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -17323,7 +16617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44f4864a-6187-4a03-845a-fe019603964e")
-		(property "Reference" "JP6"
+		(property "Reference" "JP1"
 			(at 163.322 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17385,7 +16679,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "JP6")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -17403,7 +16697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45395227-18a3-4319-98b9-eb77bbda2c1f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 269.24 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -17463,7 +16757,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -17481,7 +16775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47415e1f-17a7-41eb-bc49-ff111803d034")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR043"
 			(at 335.28 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17541,7 +16835,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR028")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -17558,7 +16852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47a37f59-5633-4567-93a0-044606ebc8aa")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR015"
 			(at 153.67 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17618,7 +16912,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR021")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17636,7 +16930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47c8d107-bc28-4d6e-9ad3-09d0626cc9a1")
-		(property "Reference" "Cap_16"
+		(property "Reference" "Cap_3"
 			(at 125.73 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17700,7 +16994,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap_16")
+					(reference "Cap_3")
 					(unit 1)
 				)
 			)
@@ -17718,7 +17012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f4cc0e-b4aa-4815-8bed-3f5b08f16775")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR06"
 			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -17779,7 +17073,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR016")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17797,7 +17091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b0a60dd-b68a-4ca5-a131-058691d66b16")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 219.71 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17857,7 +17151,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR019")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17875,7 +17169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b9ca289-d882-4e8c-8697-1d3cb36ee794")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 391.16 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17939,7 +17233,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -17956,7 +17250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e95fee8-cfbe-44f6-8d7c-ce4f30472c23")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR021"
 			(at 187.96 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -18016,7 +17310,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR025")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -18034,7 +17328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50978126-0ed0-445f-babc-1cf6a5c05bf1")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR032"
 			(at 251.46 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -18094,7 +17388,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR047")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18111,7 +17405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52e1e4ea-429a-45fe-9ab8-1006297f382e")
-		(property "Reference" "Cap11"
+		(property "Reference" "Cap5"
 			(at 188.976 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18173,7 +17467,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap11")
+					(reference "Cap5")
 					(unit 1)
 				)
 			)
@@ -18190,7 +17484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "547993f0-7723-4cd3-9004-f0acbdbb1a2a")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 354.584 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18263,7 +17557,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -18281,7 +17575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56689d28-f46a-4a15-8978-ab383f3f6369")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR039"
 			(at 304.8 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -18341,7 +17635,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR049")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18358,7 +17652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a66eade-a89f-4506-99cf-9c93b9b5a949")
-		(property "Reference" "SW7"
+		(property "Reference" "SW2"
 			(at 291.084 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18420,7 +17714,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "SW7")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -18437,7 +17731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b478871-07c9-4a87-9413-b7710cc829f5")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 194.818 152.654 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18499,7 +17793,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18517,7 +17811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c094531-69d1-428c-a750-f54870df33d5")
-		(property "Reference" "Cap_14"
+		(property "Reference" "Cap_2"
 			(at 55.88 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18581,7 +17875,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap_14")
+					(reference "Cap_2")
 					(unit 1)
 				)
 			)
@@ -18598,7 +17892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "606144fa-8a02-4aeb-acf6-000c430ac27a")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 194.818 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18660,7 +17954,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -18678,7 +17972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "606d0029-8902-40c9-aa07-2e66bb4bf8d0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR037"
 			(at 276.86 254 0)
 			(hide yes)
 			(show_name no)
@@ -18738,7 +18032,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR09")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -18756,7 +18050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "625cc921-f117-4d62-b5db-a4c9de8176f2")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 313.69 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18818,7 +18112,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -18836,7 +18130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62815b20-031c-45cc-9e44-82c215266a6c")
-		(property "Reference" "U5"
+		(property "Reference" "U9"
 			(at 336.9311 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18915,7 +18209,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U5")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -18933,7 +18227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "630b43a5-8769-4a80-8a76-e38915281d2c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR030"
 			(at 240.03 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18993,7 +18287,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR015")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19011,7 +18305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63400893-766c-4cd4-ab3a-f86e4a718402")
-		(property "Reference" "JP1"
+		(property "Reference" "JP4"
 			(at 347.98 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19073,7 +18367,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "JP1")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -19090,7 +18384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63ca0c7f-7ab1-427c-8b35-6e6a059e0015")
-		(property "Reference" "R22"
+		(property "Reference" "R6"
 			(at 151.13 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19152,7 +18446,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R22")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -19170,7 +18464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "663a057e-91d7-43ee-930b-52cd8d3df2b6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR05"
 			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19230,7 +18524,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR024")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19248,7 +18542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69971f98-fdb8-4f33-bbac-fc5707d419cc")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR026"
 			(at 210.82 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19308,7 +18602,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR07")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -19326,7 +18620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aed4d0c-185c-435d-a118-e897af0042a1")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR016"
 			(at 153.67 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -19386,7 +18680,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR02")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -19404,7 +18698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cabf973-a8ef-4ec9-965c-2e482f0e11f2")
-		(property "Reference" "Cap_15"
+		(property "Reference" "Cap_1"
 			(at 55.88 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19468,7 +18762,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap_15")
+					(reference "Cap_1")
 					(unit 1)
 				)
 			)
@@ -19486,7 +18780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6caeaa06-88a2-4b23-b187-9b178f3581da")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR036"
 			(at 276.86 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -19546,7 +18840,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR020")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -19564,7 +18858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db6113a-fb75-4084-85bd-5ddf433c2752")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR01"
 			(at 21.59 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -19624,7 +18918,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR040")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -19642,7 +18936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e6dc7ec-bd9c-4cf6-89d4-55393f9b7ae5")
-		(property "Reference" "R14"
+		(property "Reference" "R3"
 			(at 111.76 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19704,7 +18998,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R14")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19722,7 +19016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706ea324-b822-46a3-b267-d71e7c4f4b9d")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 152.4 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19840,7 +19134,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -19857,7 +19151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "717954d8-0199-4de4-9420-74211816cf3d")
-		(property "Reference" "Cout_Cap7"
+		(property "Reference" "COC3"
 			(at 205.994 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19921,7 +19215,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cout_Cap7")
+					(reference "COC3")
 					(unit 1)
 				)
 			)
@@ -19939,7 +19233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "723701a2-8a5b-4804-8866-16f693321aaa")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR022"
 			(at 187.96 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -19999,7 +19293,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR014")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -20017,7 +19311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76477eb4-b05d-49e3-bb2b-986f9538c5d6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR018"
 			(at 167.64 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20077,7 +19371,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR04")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -20095,7 +19389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7727f0d9-d25f-4bd1-aaf7-8a718b4d07f0")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 335.28 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20169,7 +19463,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -20186,7 +19480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78da41da-2cb6-4ba5-8113-2f46ed0a6f7d")
-		(property "Reference" "R27"
+		(property "Reference" "R20"
 			(at 245.11 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20250,7 +19544,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R27")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -20268,7 +19562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7927c8dd-7a1b-4f8b-8ccb-76337b897193")
-		(property "Reference" "Cap8"
+		(property "Reference" "Cap1"
 			(at 88.9 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20332,7 +19626,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap8")
+					(reference "Cap1")
 					(unit 1)
 				)
 			)
@@ -20349,7 +19643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "794d5b2a-071e-4c3c-aff2-5aa6d7d97c49")
-		(property "Reference" "R21"
+		(property "Reference" "R24"
 			(at 323.85 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20411,7 +19705,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R21")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -20429,7 +19723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b14e328-5a48-4fb7-8714-414b10ed38c1")
-		(property "Reference" "Cboot_Cap4"
+		(property "Reference" "CBT1"
 			(at 100.33 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20491,89 +19785,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cboot_Cap4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 396.24 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bc6480a-9204-445f-9154-75b11dde735c")
-		(property "Reference" "R23"
-			(at 398.78 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50R"
-			(at 398.78 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 394.462 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 396.24 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1671a324-0656-42b6-bf0b-34be3c411051")
-		)
-		(pin "1"
-			(uuid "fc174d17-72d1-4e3c-91dc-309a69fab3b6")
-		)
-		(instances
-			(project "suasPcbDesign"
-				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R23")
+					(reference "CBT1")
 					(unit 1)
 				)
 			)
@@ -20591,7 +19803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bdedfa6-2985-4f93-8033-d9521bd59895")
-		(property "Reference" "R13"
+		(property "Reference" "R2"
 			(at 34.29 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20653,7 +19865,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R13")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20670,7 +19882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dfc338d-9e73-40ec-a1ee-99e61c8d6bf0")
-		(property "Reference" "R8"
+		(property "Reference" "R12"
 			(at 194.818 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20732,7 +19944,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -20750,7 +19962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ef5acb7-09cb-4fcc-abb5-eaac36973e41")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR02"
 			(at 21.59 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20810,7 +20022,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR041")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -20828,7 +20040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c78b78-e446-4a3f-bb42-06e00b2a8b78")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 313.69 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20892,7 +20104,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -20932,7 +20144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_6.4mm_M6"
+		(property "Footprint" "Custom:MountingHole_6.3mm_M6_DIN965"
 			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -20986,7 +20198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86907090-4e4d-4566-bde7-6c93ca3abab4")
-		(property "Reference" "SW4"
+		(property "Reference" "SW1"
 			(at 276.86 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21048,7 +20260,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "SW4")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -21066,7 +20278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a4efe79-e61a-4974-a028-4df9ed81cb24")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 279.0033 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21247,7 +20459,87 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U3")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 101.6 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b24e0da-d9dc-4efa-bd6a-b8683f25a488")
+		(property "Reference" "JP5"
+			(at 101.6 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA_GND"
+			(at 101.6 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 101.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 101.6 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ad9288e-7d4e-4d5a-8099-02969db20b7b")
+		)
+		(pin "2"
+			(uuid "11e15667-cd5b-44df-8441-ffc019c48afa")
+		)
+		(instances
+			(project "suasPcbDesign"
+				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -21344,7 +20636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d01df2c-4a97-487c-a125-85dcaf7db776")
-		(property "Reference" "R12"
+		(property "Reference" "R1"
 			(at 34.29 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21406,7 +20698,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R12")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -21424,7 +20716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2beca0-55b6-4949-9a1f-029f5f5ab8ab")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR045"
 			(at 372.11 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -21484,7 +20776,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR033")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -21502,7 +20794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eb667a8-6675-463d-97ae-53b2d36495b2")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 78.74 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21576,7 +20868,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -21593,7 +20885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90cda2bc-442a-4cf1-abb7-16220a346961")
-		(property "Reference" "X7R_Cap1"
+		(property "Reference" "BBCC1"
 			(at 28.956 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21657,7 +20949,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "X7R_Cap1")
+					(reference "BBCC1")
 					(unit 1)
 				)
 			)
@@ -21760,7 +21052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92217356-0cd0-4f06-a973-fc4fd6ace84c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR041"
 			(at 323.85 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21820,7 +21112,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR027")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -21837,7 +21129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95517bc0-994d-4370-b2b1-d9f0c9fe9c73")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 170.688 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21899,7 +21191,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -21917,7 +21209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d5450f-2c85-4a25-b2f6-6f77c3f262aa")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR046"
 			(at 381 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21977,7 +21269,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR031")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -22074,7 +21366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "963061f9-9f81-4eef-8872-89c54417041d")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 214.376 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22147,7 +21439,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -22165,7 +21457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c7f27c8-d43b-4b2f-9463-951bdb5c6841")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 240.665 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22175,7 +21467,7 @@
 				)
 			)
 		)
-		(property "Value" "SPI OUT"
+		(property "Value" "SPI CTRL"
 			(at 240.665 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22230,7 +21522,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22247,7 +21539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ca6e6dd-3a45-4660-b261-f7e8ed1ed14b")
-		(property "Reference" "JP4"
+		(property "Reference" "JP3"
 			(at 207.01 192.278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22309,7 +21601,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "JP4")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -22326,7 +21618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a345af8a-c801-4d5d-8dcf-4084987d7e0c")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 160.02 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22399,7 +21691,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -22417,7 +21709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7095e21-94ac-4c85-86a3-545e38d7ad3f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 140.97 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -22478,7 +21770,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -22496,7 +21788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a89e6930-fd48-43ec-989a-c5aded318c5e")
-		(property "Reference" "SW5"
+		(property "Reference" "SW3"
 			(at 293.37 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22558,7 +21850,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "SW5")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -22575,7 +21867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a98fbfbb-9b5e-40cb-95a7-00511b4edbd7")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 132.842 99.822 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22637,7 +21929,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -22655,7 +21947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa3ce380-a358-4598-9dc5-6a1892a848b0")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR035"
 			(at 270.51 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22715,7 +22007,85 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR023")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 93.98 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa9ac159-dd2d-4b1c-85c1-809368845bbe")
+		(property "Reference" "#PWR050"
+			(at 93.98 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 93.98 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 93.98 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7be395ec-97a1-4b66-831e-b5c2ab5d987c")
+		)
+		(instances
+			(project "suasPcbDesign"
+				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -22733,7 +22103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae06d7da-9516-43aa-8230-0e136764e516")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 298.45 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22840,7 +22210,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -22880,7 +22250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_6.4mm_M6_Pad_Via"
+		(property "Footprint" "Custom:MountingHole_6.3mm_M6_Pad_Via"
 			(at 240.03 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22937,7 +22307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2748aa2-c8be-40a7-9fcc-0bf5536badf4")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 111.76 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22999,7 +22369,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R15")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -23016,7 +22386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3d030ad-538e-412c-a492-c9761946dc99")
-		(property "Reference" "Cin_Cap6"
+		(property "Reference" "CIC1"
 			(at 165.1 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23080,7 +22450,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cin_Cap6")
+					(reference "CIC1")
 					(unit 1)
 				)
 			)
@@ -23098,7 +22468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5fd2436-809f-4cee-9d8e-fff2568fa750")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR024"
 			(at 190.5 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -23158,7 +22528,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR05")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -23175,7 +22545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7a0350f-baf3-4cc7-81c1-64779872ee3f")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR029"
 			(at 231.14 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -23235,7 +22605,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR045")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -23253,7 +22623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b95e25f4-4b5f-4a5a-aa4f-1463f4008606")
-		(property "Reference" "Cap_17"
+		(property "Reference" "Cap_4"
 			(at 125.73 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23317,7 +22687,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap_17")
+					(reference "Cap_4")
 					(unit 1)
 				)
 			)
@@ -23336,7 +22706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba3f799b-0976-4e72-933f-9bf911df1a86")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 386.08 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23400,7 +22770,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -23417,7 +22787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc2b699f-0f2a-4c1f-9c9c-90fcdfde2fcc")
-		(property "Reference" "Cap9"
+		(property "Reference" "Cap2"
 			(at 123.444 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23479,7 +22849,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "Cap9")
+					(reference "Cap2")
 					(unit 1)
 				)
 			)
@@ -23497,7 +22867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c04e329a-b88b-46c5-8005-f430990489a2")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR040"
 			(at 316.23 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -23557,7 +22927,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR044")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -23692,7 +23062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5bbd485-c643-464e-91de-76fcb809c6f1")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR023"
 			(at 195.58 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -23753,7 +23123,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR06")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -23858,7 +23228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8f449e8-71da-4c4c-a6fc-c2726e267bd1")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 241.3 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23920,86 +23290,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 36.83 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca233739-84e4-452f-b365-86ccb6c73e0d")
-		(property "Reference" "J3"
-			(at 153.67 36.1949 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V Test Pad"
-			(at 153.67 38.7349 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 152.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0046cd6f-6ed6-4cd1-83f7-71ca724585bb")
-		)
-		(instances
-			(project "suasPcbDesign"
-				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "J3")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -24017,7 +23308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb67edfd-a05d-4a8f-a209-bebce8f78347")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 346.71 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24079,7 +23370,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -24097,7 +23388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccfe00c3-3352-46a4-86da-6171632e0ec0")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 326.39 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24161,7 +23452,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -24178,7 +23469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf44a997-43ae-4cda-8361-67f800ab4092")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR044"
 			(at 372.11 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -24238,7 +23529,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR013")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -24256,7 +23547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d03a7929-a355-46b0-b47c-5981d84b09fe")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR020"
 			(at 170.18 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -24316,7 +23607,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR034")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -24334,7 +23625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0758c9e-afbc-4006-87b3-68b2c65fd942")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR042"
 			(at 328.93 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -24394,7 +23685,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR035")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -24411,7 +23702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2cddca1-6f18-4a81-9fdc-70cb11265574")
-		(property "Reference" "JP5"
+		(property "Reference" "JP2"
 			(at 205.74 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24473,7 +23764,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "JP5")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -24491,7 +23782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2da45f9-caff-48e0-aca5-143e0230245b")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 254 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24565,7 +23856,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -24582,7 +23873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6c7de39-71e2-4fed-8977-ceedb752c364")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 194.818 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24644,7 +23935,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -24662,7 +23953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d739b139-8a08-47a4-b125-ed30b0a41bb7")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 191.135 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24733,7 +24024,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -24750,7 +24041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d78da0fa-9291-4d1c-98de-4a3c63b70403")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 178.054 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24815,7 +24106,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D9")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -24833,7 +24124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db0850ba-32e9-49ee-8064-5482b8918578")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 293.37 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24895,7 +24186,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -24912,7 +24203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbf8403d-6d94-46f2-8533-4061b38b1aa3")
-		(property "Reference" "R2"
+		(property "Reference" "R8"
 			(at 153.67 208.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24976,7 +24267,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -24994,7 +24285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf1d744-746e-4ca2-8a8b-621f39413973")
-		(property "Reference" "X7R_Cap4"
+		(property "Reference" "BBCC4"
 			(at 66.04 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25058,7 +24349,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "X7R_Cap4")
+					(reference "BBCC4")
 					(unit 1)
 				)
 			)
@@ -25077,7 +24368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "decd2b60-d109-41c0-8891-09698588605b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR047"
 			(at 389.89 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -25137,7 +24428,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR032")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -25154,7 +24445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0c28f11-6648-48e0-a4d5-2d6202f3a2d6")
-		(property "Reference" "JP3"
+		(property "Reference" "JP3V1"
 			(at 211.328 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25218,7 +24509,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "JP3")
+					(reference "JP3V1")
 					(unit 1)
 				)
 			)
@@ -25258,7 +24549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_6.4mm_M6_Pad_Via"
+		(property "Footprint" "Custom:7770 Keystone Electronics PC SCREW TERMINALS"
 			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -25315,7 +24606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e83dcb3f-fc97-48f3-b715-b55bb1b364ab")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR033"
 			(at 262.89 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -25375,7 +24666,89 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR048")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMF5V0A")
+		(at 147.32 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e98d2ccf-d03c-408b-89c7-2c596cdb2086")
+		(property "Reference" "D1"
+			(at 149.86 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF5V0A"
+			(at 149.86 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 142.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.goodworksemi.com/wp-content/uploads/2026/03/GK-SMF_SERIES-202604.pdf"
+			(at 147.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMF5.0CA 200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 147.32 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4aa1529b-94db-44b9-8c93-72970e2df8df")
+		)
+		(pin "2"
+			(uuid "623fbaee-6a37-4cde-9819-d54989734356")
+		)
+		(instances
+			(project "suasPcbDesign"
+				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -25392,7 +24765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecf0c496-429c-4233-82be-aeee1c5d814e")
-		(property "Reference" "R19"
+		(property "Reference" "R22"
 			(at 317.5 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25454,7 +24827,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R19")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -25471,7 +24844,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee69c8bf-6b35-4fc2-b9e6-eb11dc6f3dc6")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 194.818 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25533,7 +24906,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -25551,7 +24924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f043f433-0896-4991-a5f0-94246fce4266")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR09"
 			(at 93.98 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -25611,7 +24984,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "#PWR017")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -25629,7 +25002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f77d5e16-622c-4f89-a27e-95aba59d5a6b")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 198.12 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25700,178 +25073,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 396.24 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9ea5a81-8f8e-4dbb-a58f-a0608b0e19dd")
-		(property "Reference" "D7"
-			(at 398.272 42.164 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 398.272 43.688 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 396.24 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode(XL-1608UOC-04)"
-			(at 396.24 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 396.24 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73c4f1c5-bac8-4ca8-aced-47d61ab9f7b9")
-		)
-		(pin "2"
-			(uuid "720b6c95-7c09-41f4-bea7-c154612aecab")
-		)
-		(instances
-			(project "suasPcbDesign"
-				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 200.66 179.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb928ef1-51aa-4148-be89-f648864e55c5")
-		(property "Reference" "J8"
-			(at 201.93 178.4349 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Vbat Test Pad"
-			(at 201.93 180.9749 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 200.66 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 200.66 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2406767-f8bd-4bae-a30b-eb7984846915")
-		)
-		(instances
-			(project "suasPcbDesign"
-				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "J8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -25888,7 +25090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc471d8f-f3bd-4ada-beaf-037f7c8e0604")
-		(property "Reference" "R26"
+		(property "Reference" "R16"
 			(at 240.03 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25950,7 +25152,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "R26")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -25967,7 +25169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc60ba0e-8a9d-426a-afd5-f52493a4bd8d")
-		(property "Reference" "X7R_Cap2"
+		(property "Reference" "BBCC2"
 			(at 40.132 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26031,7 +25233,7 @@
 		(instances
 			(project "suasPcbDesign"
 				(path "/3f4829a2-0fac-45c0-b8b3-bdb72c54e399"
-					(reference "X7R_Cap2")
+					(reference "BBCC2")
 					(unit 1)
 				)
 			)

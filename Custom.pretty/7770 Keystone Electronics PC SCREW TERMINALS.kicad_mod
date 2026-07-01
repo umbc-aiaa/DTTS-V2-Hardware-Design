@@ -1,0 +1,134 @@
+(footprint "7770 Keystone Electronics PC SCREW TERMINALS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c13dc7c5-129c-4efb-a2d3-23fd3f00ffa0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf75a924-434a-4952-b9c3-7d593b48509c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 6.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9c806b5-50a7-4d4f-9e3e-23063408338c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "7770 Keystone Electronics PC SCREW TERMINALS"
+		(at 0 7.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82808aa5-2490-42a3-9677-daa710e76760")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.15 -4.9)
+		(end 6.15 4.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "30655994-0e29-4296-a1c3-fff4a7fa19b2")
+	)
+	(fp_rect
+		(start -6.25 -5)
+		(end 6.25 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2f57f6ba-6d3e-4af3-9a07-1e35eed70d1d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6a60094-41b5-4d60-94ce-6854c741197d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.471399 2.494516)
+		(size 3 3)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "bfbf0a58-7604-4dfd-9e28-669a0bb85c42")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.528601 -2.505484)
+		(size 3 3)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "74e47e5a-173d-48ea-a0fc-6d64b501b95d")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.528601 2.494516)
+		(size 3 3)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "03723206-07c2-465b-bd16-70e4e4ba3d82")
+	)
+	(pad "1" thru_hole circle
+		(at -3.471399 -2.505484)
+		(size 3 3)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b0a06b6-0a69-4ef4-bc66-b211ef8e445b")
+	)
+	(group ""
+		(uuid "8ab11e4b-f213-4763-b195-c5f91d3503b2")
+		(members "2f57f6ba-6d3e-4af3-9a07-1e35eed70d1d" "30655994-0e29-4296-a1c3-fff4a7fa19b2"
+			"6ef6c0eb-5de7-42d8-8a5f-bf924fcbbfe2"
+		)
+	)
+	(group ""
+		(uuid "6ef6c0eb-5de7-42d8-8a5f-bf924fcbbfe2")
+		(members "03723206-07c2-465b-bd16-70e4e4ba3d82" "4b0a06b6-0a69-4ef4-bc66-b211ef8e445b"
+			"74e47e5a-173d-48ea-a0fc-6d64b501b95d" "bfbf0a58-7604-4dfd-9e28-669a0bb85c42"
+		)
+	)
+	(embedded_fonts no)
+)
