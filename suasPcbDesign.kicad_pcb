@@ -16275,7 +16275,7 @@
 		(uuid "b2456369-125b-4216-87eb-559a99acba06")
 		(at 96.571399 184.905484)
 		(property "Reference" "H1"
-			(at 0 6.1 0)
+			(at 0 -0.005484 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e4376141-3346-40b7-952a-74007ce32b65")
