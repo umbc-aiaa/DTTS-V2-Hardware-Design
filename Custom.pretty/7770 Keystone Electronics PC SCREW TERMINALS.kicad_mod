@@ -3,12 +3,36 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8164fa47-7e75-4f03-9f9b-691506c571ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "7770 Keystone Electronics PC SCREW TERMINALS"
+		(at 0 7.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a6fce00f-77dc-483a-b826-73c9bde73584")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c13dc7c5-129c-4efb-a2d3-23fd3f00ffa0")
+		(uuid "8c2913c4-c427-4b6b-9df0-546548363dc9")
 		(effects
 			(font
 				(size 1 1)
@@ -21,31 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf75a924-434a-4952-b9c3-7d593b48509c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at 0 6.1 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "b9c806b5-50a7-4d4f-9e3e-23063408338c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Value" "7770 Keystone Electronics PC SCREW TERMINALS"
-		(at 0 7.6 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "82808aa5-2490-42a3-9677-daa710e76760")
+		(uuid "3808802a-d4bb-48a5-81f7-144a6289781f")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "30655994-0e29-4296-a1c3-fff4a7fa19b2")
+		(uuid "13e076ce-39b8-4d86-95d5-18e5d5c79a2f")
 	)
 	(fp_rect
 		(start -6.25 -5)
@@ -75,13 +75,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "2f57f6ba-6d3e-4af3-9a07-1e35eed70d1d")
+		(uuid "4086089b-6e62-4385-9b2b-08cbbe81c135")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 9.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d6a60094-41b5-4d60-94ce-6854c741197d")
+		(uuid "2ebd0248-5dbd-482a-88cf-8ecdaaa8b7fb")
 		(effects
 			(font
 				(size 1 1)
@@ -94,21 +94,21 @@
 		(size 3 3)
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
-		(uuid "bfbf0a58-7604-4dfd-9e28-669a0bb85c42")
+		(uuid "a46a0d71-b851-4a8f-ad51-a2c156af8343")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.528601 -2.505484)
 		(size 3 3)
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
-		(uuid "74e47e5a-173d-48ea-a0fc-6d64b501b95d")
+		(uuid "78059569-b089-446f-9c9c-40c52cd8e03d")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.528601 2.494516)
 		(size 3 3)
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
-		(uuid "03723206-07c2-465b-bd16-70e4e4ba3d82")
+		(uuid "233de3fa-a811-4136-9010-d39c8208ee32")
 	)
 	(pad "1" thru_hole circle
 		(at -3.471399 -2.505484)
@@ -116,19 +116,30 @@
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4b0a06b6-0a69-4ef4-bc66-b211ef8e445b")
+		(uuid "fd6493e3-9e1e-4d00-97fb-cd422d6f81bd")
 	)
 	(group ""
-		(uuid "8ab11e4b-f213-4763-b195-c5f91d3503b2")
-		(members "2f57f6ba-6d3e-4af3-9a07-1e35eed70d1d" "30655994-0e29-4296-a1c3-fff4a7fa19b2"
-			"6ef6c0eb-5de7-42d8-8a5f-bf924fcbbfe2"
+		(uuid "9290fb3f-1dcc-48db-bbcf-f026d156e839")
+		(members "13e076ce-39b8-4d86-95d5-18e5d5c79a2f" "4086089b-6e62-4385-9b2b-08cbbe81c135"
+			"a6c78959-f8f3-4da2-97dd-68eee5135a98"
 		)
 	)
 	(group ""
-		(uuid "6ef6c0eb-5de7-42d8-8a5f-bf924fcbbfe2")
-		(members "03723206-07c2-465b-bd16-70e4e4ba3d82" "4b0a06b6-0a69-4ef4-bc66-b211ef8e445b"
-			"74e47e5a-173d-48ea-a0fc-6d64b501b95d" "bfbf0a58-7604-4dfd-9e28-669a0bb85c42"
+		(uuid "a6c78959-f8f3-4da2-97dd-68eee5135a98")
+		(members "233de3fa-a811-4136-9010-d39c8208ee32" "78059569-b089-446f-9c9c-40c52cd8e03d"
+			"a46a0d71-b851-4a8f-ad51-a2c156af8343" "fd6493e3-9e1e-4d00-97fb-cd422d6f81bd"
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Keystone 7771-7771.step"
+		(offset
+			(xyz -0.7 0.5 1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -16328,12 +16328,6 @@
 		(path "/e498d1ad-71f5-4365-b5d9-a9e708cf1425")
 		(sheetname "/")
 		(sheetfile "suasPcbDesign.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16415,6 +16409,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Keystone 7771-7771.step"
+			(offset
+				(xyz -0.7 0.5 1.75)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
