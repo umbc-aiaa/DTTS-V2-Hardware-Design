@@ -16679,7 +16679,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv331.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6541-Output-Sub-Microamp-Comparators-DS20001696.pdf"
 			(at 254 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16690,7 +16690,7 @@
 				)
 			)
 		)
-		(property "Description" "Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5"
+		(property "Description" "Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5 (MCP6541UT-E/OTCT-ND)"
 			(at 254 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -23647,7 +23647,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "300R"
 			(at 346.71 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
