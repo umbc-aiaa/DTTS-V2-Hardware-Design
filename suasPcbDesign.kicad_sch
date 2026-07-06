@@ -8798,6 +8798,12 @@
 		(uuid "4e3f9777-b724-457f-bb0f-6b3a3cf92fdb")
 	)
 	(junction
+		(at 27.94 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "541bca9c-a0a6-4159-bab4-22830190cde4")
+	)
+	(junction
 		(at 52.07 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8826,12 +8832,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fa7d068-3862-4a9a-9598-d09fccc94e71")
-	)
-	(junction
-		(at 27.94 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "615e55b5-3468-433b-8dae-44c6017fc14a")
 	)
 	(junction
 		(at 153.67 102.87)
@@ -10113,16 +10113,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 44.45) (xy 36.83 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "458ae8ab-d38e-4a97-9ec0-34acc69eb5d8")
-	)
-	(wire
-		(pts
 			(xy 190.5 63.5) (xy 190.5 66.04)
 		)
 		(stroke
@@ -10573,16 +10563,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 41.91) (xy 27.94 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "698924d8-565f-4bb0-a3f3-e9cf1fa70cd8")
-	)
-	(wire
-		(pts
 			(xy 87.63 200.66) (xy 87.63 209.55)
 		)
 		(stroke
@@ -10770,6 +10750,16 @@
 			(type default)
 		)
 		(uuid "7ab9b753-a97c-4061-a2de-f454e6b434c3")
+	)
+	(wire
+		(pts
+			(xy 27.94 44.45) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b07748f-868e-47e0-beaa-61006b64b36c")
 	)
 	(wire
 		(pts
@@ -11730,6 +11720,26 @@
 			(type default)
 		)
 		(uuid "c3610447-6a03-4408-a246-231107f8351c")
+	)
+	(wire
+		(pts
+			(xy 27.94 43.18) (xy 27.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3dd0208-aa1d-4e1e-a52a-efdf52cbfd6b")
+	)
+	(wire
+		(pts
+			(xy 27.94 34.29) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c482fc73-e356-4521-a55e-0d6fe84f1d9d")
 	)
 	(wire
 		(pts
@@ -21903,7 +21913,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 31.75 44.45 180)
+		(at 27.94 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21913,7 +21923,7 @@
 		(dnp no)
 		(uuid "a58e03c5-727b-4460-b2ac-b24480c378f2")
 		(property "Reference" "D9"
-			(at 31.496 47.498 0)
+			(at 24.892 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21923,7 +21933,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 31.496 50.038 0)
+			(at 22.352 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21933,7 +21943,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
-			(at 31.75 44.45 0)
+			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21944,7 +21954,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6956/5399_S3M%20SMB.pdf"
-			(at 31.75 44.45 0)
+			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21955,7 +21965,7 @@
 			)
 		)
 		(property "Description" "Diode 5399-S3MCT-ND"
-			(at 31.75 44.45 0)
+			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21966,7 +21976,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 44.45 0)
+			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21977,7 +21987,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 44.45 0)
+			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24753,7 +24763,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 27.94 39.37 0)
+		(at 27.94 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24764,7 +24774,7 @@
 		(fields_autoplaced yes)
 		(uuid "e498d1ad-71f5-4365-b5d9-a9e708cf1425")
 		(property "Reference" "H1"
-			(at 30.48 36.8299 0)
+			(at 30.48 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24775,7 +24785,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 30.48 39.3699 0)
+			(at 30.48 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24786,7 +24796,7 @@
 			)
 		)
 		(property "Footprint" "Custom:7770 Keystone Electronics PC SCREW TERMINALS"
-			(at 27.94 39.37 0)
+			(at 27.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24797,7 +24807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 39.37 0)
+			(at 27.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24808,7 +24818,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 27.94 39.37 0)
+			(at 27.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
