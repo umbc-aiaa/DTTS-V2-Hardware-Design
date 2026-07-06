@@ -16658,7 +16658,7 @@
 				)
 			)
 		)
-		(property "Value" "LMV331"
+		(property "Value" "MCP6541UT-E/OT"
 			(at 264.16 64.6998 0)
 			(show_name no)
 			(do_not_autoplace no)

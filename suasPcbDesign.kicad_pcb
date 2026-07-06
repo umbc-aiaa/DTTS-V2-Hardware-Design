@@ -16814,7 +16814,7 @@
 				)
 			)
 		)
-		(property "Value" "LMV331"
+		(property "Value" "MCP6541UT-E/OT"
 			(at 0 2.9 90)
 			(layer "F.Fab")
 			(uuid "4b04b0c0-c6fd-4999-9bc5-a8bd5a8e4ca3")
