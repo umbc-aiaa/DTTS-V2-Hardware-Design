@@ -16298,7 +16298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p76.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16334,7 +16334,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -6.15 -4.9)

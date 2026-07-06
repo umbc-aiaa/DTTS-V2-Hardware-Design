@@ -24767,7 +24767,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -24806,7 +24806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p76.pdf"
 			(at 27.94 31.75 0)
 			(hide yes)
 			(show_name no)
