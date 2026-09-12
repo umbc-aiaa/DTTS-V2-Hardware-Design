@@ -4,6 +4,8 @@ This repo houses the hardware design and associated documentation for the SUAS D
 The new board is designed to be more intuitive to use and more robust against failures like over voltage, shorts, etc.
 The V2 board also integrates all sensors and ICs in a single solution.
 
+<img width="1400" height="1040" alt="image" src="https://github.com/user-attachments/assets/b5a0624c-639d-4763-9191-03918998d567" />
+
 
 ## System Diagram
 ```mermaid
@@ -13,6 +15,7 @@ CS[<b>Current Sensor</b></br>Current sensing is implemented with a shunt resisto
 VS[<b>Voltage Sensor</b></br>Voltage sensing circuit is implemented as a simple resistor voltage divider.];
 ADC["<b>Analog-to-Digital Converter (ADC)</b></br>Converts single mode and differential analog signals into a digital format."];
 MC[<b>ESP32 S3 WROOM 1</b></br>Controls esc for the motor, collects measurements, and communcates them over WiFi.];
+ESC[<b>Electronic Speed Controller</b><br />Converts DC from battery to 3-phase AC for motor.]
 
 GUI[<b>Front End UI</b></br>A front end GUI collects measurements and makes user interaction simple.];
 
@@ -22,7 +25,11 @@ VS --> ADC;
 
 ADC --> MC;
 
+MC -- PWM --> ESC;
+
 GUI <== WiFi ==> MC;
+
+ADC ~~~ GUI;
 ```
 
 ## Working Specs
